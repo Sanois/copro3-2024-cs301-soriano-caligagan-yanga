@@ -1,0 +1,41 @@
+﻿CREATE TABLE [dbo].[CHARACTER_INFO]
+(
+    [user_Id]				INT IDENTITY (1,1) NOT NULL, 
+    [user_Charname]			VARCHAR(50) NOT NULL, 
+    [user_Gender]			VARCHAR(50) NOT NULL, 
+    [user_Archetype]		VARCHAR(50) NOT NULL,
+    [user_Phys]				VARCHAR(50) NOT NULL, 
+    [user_EyeColor]			VARCHAR(50) NOT NULL, 
+    [user_HairColor]		VARCHAR(50) NOT NULL,
+    [user_HairStyle]		VARCHAR(50) NOT NULL,
+    [user_FaceStructure]	VARCHAR(50) NOT NULL,
+    [user_SkinColor]		VARCHAR(50) NOT NULL,
+    [user_FacialHair]		BIT NOT NULL,
+    [user_Scar]				BIT NOT NULL,
+    [user_Tattoo]			BIT NOT NULL,
+    [user_Piercing]			BIT NOT NULL,
+    [user_EyebrowsonFleek]	BIT NOT NULL,
+    [user_Assertive]		INT NOT NULL,
+    [user_Foresight]		INT NOT NULL,
+    [user_Health]			INT NOT NULL,
+    [user_Leadership]		INT NOT NULL,
+    [user_Luck]				INT NOT NULL,
+    [user_Nimble]			INT NOT NULL,
+    [user_Nocturnal]		INT NOT NULL,
+    [user_Persuasion]		INT NOT NULL,
+    [user_Sadness]			INT NOT NULL,
+    [user_Toughness]		INT NOT NULL,
+    [user_Quirk1]			VARCHAR(50) NOT NULL,
+    [user_Quirk2]			VARCHAR(50) NOT NULL,
+    [user_Quirk3]			VARCHAR(50) NOT NULL,
+    [user_Ability]			VARCHAR(50) NOT NULL,
+    [user_Horoscope]		VARCHAR(50) NOT NULL,
+    [user_Accessories]		VARCHAR(50) NOT NULL,
+    [user_Companion]		VARCHAR(50) NOT NULL,
+    [user_StartingItem]		VARCHAR(50) NOT NULL,
+    [user_MapSettings]		VARCHAR(50) NOT NULL, 
+    CONSTRAINT [PK_CHARACTER_INFO] PRIMARY KEY ([user_Id])
+
+
+
+);
